@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         init();
     }
 
+
     private void init(){
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         List<User> userList = new ArrayList<>();
